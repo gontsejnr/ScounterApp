@@ -1,14 +1,75 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar color="warning">
+        <ion-title>
+            Cout Couter
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+    <table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <tr>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <th>
+                <!-- <div class="container"> -->
+                <ion-label>Team A</ion-label>
+                <ion-label>
+                    <h1>{{teamA}}</h1>
+                </ion-label>
+                <tr>
+                    <th>
+                        <ion-button color="warning" (click)="button1_A()">-3</ion-button>
+                        <ion-button color="warning" (click)="button2_A()">+3</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <ion-button color="warning" (click)="button3_A()">-2</ion-button>
+                        <ion-button color="warning" (click)="button4_A()">+2</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <ion-button color="warning" (click)="button5_A()">-1</ion-button>
+                        <ion-button color="warning" (click)="button6_A()">+1</ion-button>
+                    </th>
+                </tr>
+                <!-- </div> -->
+            </th>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <th>
+                <!-- <div class="container_1"> -->
+                <ion-label>Team B</ion-label>
+                <ion-label>
+                    <h1>{{teamB}}</h1>
+                </ion-label>
+                <tr>
+                    <th>
+                        <ion-button color="warning" (click)="button1_B()">-3</ion-button>
+                        <ion-button color="warning" (click)="button2_B()">+3</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+
+                        <ion-button color="warning" (click)="button3_B()">-2</ion-button>
+                        <ion-button color="warning" (click)="button4_B()">+2</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <ion-button color="warning" (click)="button5_B()">-1</ion-button>
+                        <ion-button color="warning" (click)="button6_B()">+1</ion-button>
+                    </th>
+                </tr>
+
+            </th>
+        </tr>
+    </table>
+
+    <div class="footer">
+        <ion-button color="warning" (click)="reset()">RESET</ion-button>
+    </div>
+
 </ion-content>
