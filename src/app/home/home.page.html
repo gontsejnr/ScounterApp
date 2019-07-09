@@ -1,22 +1,23 @@
 <ion-header>
     <ion-toolbar color="warning">
         <ion-title>
-            Cout Couter
+            Court Couter
         </ion-title>
     </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <table>
+    <table >
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <tr>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <th>
-                <!-- <div class="container"> -->
-                <ion-label>Team A</ion-label>
+              
+                <ion-label><h1>Team A</h1></ion-label><br>
                 <ion-label>
-                    <h1>{{teamA}}</h1>
+                    <br><h1>{{teamA}}</h1>
                 </ion-label>
+                <br>
                 <tr>
                     <th>
                         <ion-button color="warning" (click)="button1_A()">-3</ion-button>
@@ -35,15 +36,16 @@
                         <ion-button color="warning" (click)="button6_A()">+1</ion-button>
                     </th>
                 </tr>
-                <!-- </div> -->
+                
             </th>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <th>
-                <!-- <div class="container_1"> -->
-                <ion-label>Team B</ion-label>
+            
+                <ion-label><h1>Team B</h1></ion-label><br>
                 <ion-label>
-                    <h1>{{teamB}}</h1>
+                    <br><h1>{{teamB}}</h1>
                 </ion-label>
+                <br>
                 <tr>
                     <th>
                         <ion-button color="warning" (click)="button1_B()">-3</ion-button>
@@ -67,7 +69,7 @@
             </th>
         </tr>
     </table>
-
+    <br>
     <div class="footer">
         <ion-button color="warning" (click)="reset()">RESET</ion-button>
     </div>

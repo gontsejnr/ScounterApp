@@ -10,7 +10,7 @@ export class HomePage {
 
   teamA = 0;
   teamB = 0;
-  score: number;
+ // score: number;
 
   constructor(private router: Router) {}
 
@@ -57,7 +57,7 @@ export class HomePage {
   reset(){
     console.log(this.teamA = 0)
     console.log(this.teamB = 0)
-    this.router.navigateByUrl('/home')
+    //this.router.navigateByUrl('/home')
   }
 
 }
