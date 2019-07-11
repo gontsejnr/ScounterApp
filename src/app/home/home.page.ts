@@ -17,18 +17,27 @@ export class HomePage {
   //for team A
   button1_A(){
     console.log(this.teamA -=3)
+    if(this.teamA<=0){
+      this.teamA=0
+    }
   }
   button2_A(){
     console.log(this.teamA +=3)
   }
   button3_A(){
     console.log(this.teamA -=2)
+    if(this.teamA<=0){
+      this.teamA=0
+    }
   }
   button4_A(){
     console.log(this.teamA +=2)
   }
   button5_A(){
     console.log(this.teamA -=1)
+    if(this.teamA<=0){
+      this.teamA=0
+    }
   }
   button6_A(){
     console.log(this.teamA +=1)
@@ -37,18 +46,27 @@ export class HomePage {
   //for team B
   button1_B(){
     console.log(this.teamB -=3)
+    if(this.teamB<=0){
+      this.teamB=0
+    }
   }
   button2_B(){
     console.log(this.teamB +=3)
   }
   button3_B(){
     console.log(this.teamB -=2)
+    if(this.teamB<=0){
+      this.teamB=0
+    }
   }
   button4_B(){
     console.log(this.teamB +=2)
   }
   button5_B(){
     console.log(this.teamB -=1)
+    if(this.teamB<=0){
+      this.teamB=0
+    }
   }
   button6_B(){
     console.log(this.teamB +=1)

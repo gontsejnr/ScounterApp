@@ -5,4 +5,17 @@
 table, th, td{
     margin-left: 10px;
     margin-right: 0;
+    margin: 0%;
+}
+.divider {
+    border-left: 1px solid lightgrey;
+    height: 285px;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    top: 0;
+}
+.g{
+    height: 50%;
+    
 }
